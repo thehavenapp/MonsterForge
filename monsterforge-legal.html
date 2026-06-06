@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MonsterForge — Legal</title>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--orange:#FF5A1F;--yellow:#FFD93D;--teal:#00D4AA;--dark:#13103A;--card:#1E1A4A;--text:#FFFFFF;--muted:#B8ADDD;--border:rgba(255,255,255,0.1);}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Nunito',sans-serif;background:var(--dark);color:var(--text);line-height:1.7;}
+nav{display:flex;align-items:center;justify-content:space-between;padding:0 48px;height:68px;
+  background:rgba(19,16,58,0.98);border-bottom:3px solid black;position:sticky;top:0;z-index:100;}
+.logo{font-family:Impact,'Arial Black',sans-serif;font-size:1.7rem;color:white;
+  text-shadow:3px 3px 0 var(--orange);letter-spacing:2px;}
+.logo em{color:var(--yellow);font-style:normal;}
+.back-btn{background:var(--orange);color:white;border:3px solid black;padding:8px 20px;
+  border-radius:50px;font-family:'Nunito',sans-serif;font-weight:900;font-size:.88rem;
+  cursor:pointer;box-shadow:3px 3px 0 black;text-decoration:none;display:inline-block;}
+
+.tabs{display:flex;gap:0;border-bottom:3px solid black;background:var(--card);padding:0 48px;position:sticky;top:68px;z-index:99;}
+.tab{padding:16px 28px;font-family:'Nunito',sans-serif;font-weight:900;font-size:.88rem;
+  cursor:pointer;color:var(--muted);border:none;background:none;border-bottom:4px solid transparent;
+  transition:color .2s,border-color .2s;letter-spacing:.5px;text-transform:uppercase;}
+.tab.active{color:var(--orange);border-bottom-color:var(--orange);}
+.tab:hover:not(.active){color:var(--text);}
+
+.panel{display:none;max-width:820px;margin:0 auto;padding:56px 48px 80px;}
+.panel.active{display:block;}
+
+.doc-title{font-family:Impact,'Arial Black',sans-serif;font-size:2.4rem;color:white;
+  margin-bottom:8px;letter-spacing:1px;text-shadow:3px 3px 0 rgba(0,0,0,.4);}
+.doc-updated{font-size:.82rem;font-weight:700;color:var(--muted);margin-bottom:40px;
+  padding-bottom:20px;border-bottom:2px solid var(--border);}
+
+h2{font-family:Impact,'Arial Black',sans-serif;font-size:1.3rem;color:white;
+  margin:36px 0 12px;letter-spacing:.5px;text-shadow:2px 2px 0 rgba(0,0,0,.3);}
+p{font-size:.95rem;font-weight:700;color:var(--muted);margin-bottom:14px;line-height:1.75;}
+ul{margin:0 0 14px 20px;}
+ul li{font-size:.95rem;font-weight:700;color:var(--muted);margin-bottom:7px;line-height:1.65;}
+strong{color:var(--text);}
+a{color:var(--teal);text-decoration:none;}a:hover{text-decoration:underline;}
+
+.highlight-box{background:var(--card);border:2.5px solid black;border-left:5px solid var(--orange);
+  border-radius:12px;padding:18px 20px;margin:20px 0 24px;box-shadow:3px 3px 0 black;}
+.highlight-box p{margin:0;color:var(--text);}
+
+.contact-box{background:var(--card);border:3px solid black;border-radius:16px;padding:24px;
+  margin-top:36px;box-shadow:4px 4px 0 black;text-align:center;}
+.contact-box p{color:var(--text);margin-bottom:6px;}
+.contact-box a{color:var(--yellow);font-weight:900;}
+
+@media(max-width:768px){nav{padding:0 20px;}.tabs{padding:0 12px;overflow-x:auto;}
+  .tab{padding:14px 16px;font-size:.78rem;white-space:nowrap;}.panel{padding:36px 20px 80px;}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Monster<em>Forge</em></div>
+  <a href="monsterforge.html" class="back-btn">← BACK TO GAME</a>
+</nav>
+
+<div class="tabs">
+  <button class="tab active" onclick="showTab('privacy')">Privacy Policy</button>
+  <button class="tab" onclick="showTab('terms')">Terms of Service</button>
+  <button class="tab" onclick="showTab('parents')">Parents & Kids</button>
+</div>
+
+<!-- ══════════════ PRIVACY POLICY ══════════════ -->
+<div class="panel active" id="panel-privacy">
+  <div class="doc-title">PRIVACY POLICY</div>
+  <div class="doc-updated">Last Updated: June 2025 · Effective Immediately</div>
+
+  <div class="highlight-box">
+    <p>🛡️ <strong>Plain English Summary:</strong> MonsterForge does not collect personal information from children under 13 without verifiable parental consent. We do not sell your data. We do not share it with advertisers. This policy explains what we collect, why, and how we protect it.</p>
+  </div>
+
+  <h2>1. Who We Are</h2>
+  <p>MonsterForge ("we," "us," or "our") is operated as a sole proprietorship. Our contact email is <a href="mailto:havenhelper1@gmail.com">havenhelper1@gmail.com</a>. References to "you" or "user" mean anyone who accesses or uses MonsterForge.</p>
+
+  <h2>2. Children's Privacy — COPPA Compliance</h2>
+  <p>MonsterForge is designed for general audiences including children. We take children's privacy seriously and comply with the <strong>Children's Online Privacy Protection Act (COPPA)</strong>.</p>
+  <ul>
+    <li>We do <strong>not</strong> knowingly collect personal information from children under 13 without verifiable parental consent.</li>
+    <li>Children under 13 should only use MonsterForge with a parent or guardian's permission.</li>
+    <li>If you are a parent or guardian and believe your child has provided us personal information without your consent, please contact us immediately at <a href="mailto:havenhelper1@gmail.com">havenhelper1@gmail.com</a> and we will delete it promptly.</li>
+    <li>We do not require account registration to use the core features of MonsterForge.</li>
+  </ul>
+
+  <h2>3. Information We Collect</h2>
+  <p><strong>Information you provide:</strong></p>
+  <ul>
+    <li>Text prompts you enter into the monster creation tool (used solely to generate your monster via AI)</li>
+    <li>Email address if you contact us for support</li>
+    <li>Payment information if you make a purchase (processed securely by Stripe — we never see or store your card details)</li>
+  </ul>
+  <p><strong>Information collected automatically:</strong></p>
+  <ul>
+    <li>Basic usage data (pages visited, features used) to improve the app</li>
+    <li>Device type and browser type for compatibility purposes</li>
+    <li>IP address for security and fraud prevention</li>
+  </ul>
+  <p><strong>We do NOT collect:</strong></p>
+  <ul>
+    <li>Your name, address, or phone number unless you voluntarily provide it for support</li>
+    <li>Location data</li>
+    <li>Photos, camera, or microphone access</li>
+    <li>Contacts or social media accounts</li>
+  </ul>
+
+  <h2>4. How We Use Your Information</h2>
+  <ul>
+    <li>To generate AI monsters based on your prompts using the Anthropic API</li>
+    <li>To process payments and fulfill purchases via Stripe</li>
+    <li>To respond to customer support requests</li>
+    <li>To improve the game experience and fix bugs</li>
+    <li>To comply with legal obligations</li>
+  </ul>
+  <p>We do <strong>not</strong> use your information for targeted advertising, sell it to third parties, or use it for any purpose beyond operating MonsterForge.</p>
+
+  <h2>5. AI-Generated Content</h2>
+  <p>When you use the monster creation feature, your text prompt is sent to the <strong>Anthropic API</strong> to generate content. Anthropic's use of this data is governed by <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic's Privacy Policy</a>. We recommend parents review Anthropic's policies. We do not send any personal identifying information alongside prompts.</p>
+
+  <h2>6. Virtual Currency & Purchases</h2>
+  <p>MonsterForge uses a virtual coin system. Virtual coins have no real-world monetary value, cannot be exchanged for real money, and are non-transferable outside the game. All real-money purchases are processed by <strong>Stripe</strong>. We do not store payment card details. For Stripe's privacy practices, visit <a href="https://stripe.com/privacy" target="_blank">stripe.com/privacy</a>.</p>
+
+  <h2>7. Data Sharing</h2>
+  <p>We do not sell, rent, or trade your personal information. We may share data only in these limited cases:</p>
+  <ul>
+    <li><strong>Stripe</strong> — payment processing</li>
+    <li><strong>Anthropic</strong> — AI content generation (prompts only, no personal data)</li>
+    <li><strong>Legal compliance</strong> — if required by law or court order</li>
+  </ul>
+
+  <h2>8. Data Retention & Deletion</h2>
+  <p>We retain minimal data and only as long as necessary. If you wish to request deletion of any data associated with your use of MonsterForge, email us at <a href="mailto:havenhelper1@gmail.com">havenhelper1@gmail.com</a> and we will process your request within 30 days.</p>
+
+  <h2>9. Security</h2>
+  <p>We implement reasonable technical and organizational safeguards to protect your information. However, no internet transmission is 100% secure. Please use MonsterForge responsibly.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy periodically. We will post the updated version here with a new "Last Updated" date. Continued use of MonsterForge after changes constitutes acceptance of the revised policy.</p>
+
+  <div class="contact-box">
+    <p>📬 <strong>Privacy Questions?</strong></p>
+    <p>Contact us at <a href="mailto:havenhelper1@gmail.com">havenhelper1@gmail.com</a></p>
+    <p style="font-size:.8rem;color:var(--muted);margin-top:6px;">We respond within 2 business days.</p>
+  </div>
+</div>
+
+<!-- ══════════════ TERMS OF SERVICE ══════════════ -->
+<div class="panel" id="panel-terms">
+  <div class="doc-title">TERMS OF SERVICE</div>
+  <div class="doc-updated">Last Updated: June 2025 · Effective Immediately</div>
+
+  <div class="highlight-box">
+    <p>⚖️ <strong>Plain English Summary:</strong> By using MonsterForge, you agree to these rules. Use the app for fun, don't misuse it, and understand that virtual coins and monsters have no real-world value. Parents: you're responsible for your child's use of this app.</p>
+  </div>
+
+  <h2>1. Acceptance of Terms</h2>
+  <p>By accessing or using MonsterForge (the "App"), you agree to be bound by these Terms of Service ("Terms"). If you are under 18, your parent or legal guardian must review and agree to these Terms on your behalf. If you do not agree, do not use MonsterForge.</p>
+
+  <h2>2. Eligibility & Parental Consent</h2>
+  <ul>
+    <li>MonsterForge is intended for users of all ages with parental supervision for children under 13.</li>
+    <li>Children under 13 may only use MonsterForge with a parent or guardian's knowledge and consent.</li>
+    <li>Parents and guardians are responsible for monitoring their child's use of the App, including any purchases made.</li>
+    <li>If you are a parent, we strongly recommend enabling purchase restrictions on your child's device.</li>
+  </ul>
+
+  <h2>3. Account & Game Progress</h2>
+  <p>MonsterForge currently operates as a browser-based app. Game progress, monsters, and coins may be stored locally in your browser. We are not responsible for loss of game data due to clearing browser storage, switching devices, or browser updates. We recommend taking screenshots of your favorite monsters!</p>
+
+  <h2>4. Virtual Currency & Purchases</h2>
+  <ul>
+    <li><strong>Virtual coins</strong> are an in-game currency only. They have no real-world monetary value and cannot be withdrawn, transferred, or exchanged for real money.</li>
+    <li>All real-money purchases (Monster Eggs, Battle Pass, etc.) are <strong>final and non-refundable</strong> unless required by applicable law.</li>
+    <li>We reserve the right to modify virtual coin prices, egg costs, and in-game economy at any time.</li>
+    <li>Parents: please monitor in-app purchases. We are not responsible for unauthorized purchases made by minors on your payment method.</li>
+  </ul>
+
+  <h2>5. AI-Generated Content</h2>
+  <ul>
+    <li>Monster names, bios, stats, and abilities are generated by AI based on your input. Results are unpredictable and may vary.</li>
+    <li>You are responsible for the prompts you submit. Do not submit personal information, offensive content, or anything illegal in your prompts.</li>
+    <li>MonsterForge reserves the right to block prompts that violate these Terms or produce inappropriate content.</li>
+    <li>AI-generated monsters created in the App are for entertainment purposes only.</li>
+  </ul>
+
+  <h2>6. Acceptable Use</h2>
+  <p>You agree NOT to:</p>
+  <ul>
+    <li>Use MonsterForge for any unlawful purpose</li>
+    <li>Submit prompts containing hate speech, sexual content, violence, or content targeting real people</li>
+    <li>Attempt to hack, reverse-engineer, or exploit the App</li>
+    <li>Use bots, scripts, or automation to generate monsters or earn coins</li>
+    <li>Impersonate other users or MonsterForge staff</li>
+    <li>Attempt to circumvent any spending limits or coin system</li>
+  </ul>
+
+  <h2>7. Intellectual Property</h2>
+  <p>The MonsterForge name, logo, design, and code are owned by MonsterForge and protected by applicable intellectual property laws. AI-generated monster content created through your prompts is provided for your personal entertainment use. You may not sell, redistribute, or commercialize AI-generated content from MonsterForge.</p>
+
+  <h2>8. Disclaimer of Warranties</h2>
+  <p>MonsterForge is provided <strong>"as is"</strong> without any warranties, express or implied. We do not guarantee uninterrupted service, error-free performance, or that game data will be preserved indefinitely. The App may be modified, suspended, or discontinued at any time.</p>
+
+  <h2>9. Limitation of Liability</h2>
+  <p>To the maximum extent permitted by law, MonsterForge and its operators shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the App, including but not limited to loss of game progress, virtual coins, or in-game items.</p>
+
+  <h2>10. Governing Law</h2>
+  <p>These Terms are governed by the laws of the United States. Any disputes will be resolved in the applicable jurisdiction where MonsterForge is operated.</p>
+
+  <h2>11. Changes to Terms</h2>
+  <p>We may update these Terms at any time. Continued use of MonsterForge after changes constitutes your acceptance of the revised Terms.</p>
+
+  <h2>12. Contact</h2>
+  <p>For questions about these Terms, contact us at <a href="mailto:havenhelper1@gmail.com">havenhelper1@gmail.com</a>.</p>
+
+  <div class="contact-box">
+    <p>⚖️ <strong>Legal Questions?</strong></p>
+    <p>Contact us at <a href="mailto:havenhelper1@gmail.com">havenhelper1@gmail.com</a></p>
+    <p style="font-size:.8rem;color:var(--muted);margin-top:6px;">We respond within 2 business days.</p>
+  </div>
+</div>
+
+<!-- ══════════════ PARENTS & KIDS ══════════════ -->
+<div class="panel" id="panel-parents">
+  <div class="doc-title">PARENTS & KIDS</div>
+  <div class="doc-updated">A guide for parents and guardians · June 2025</div>
+
+  <div class="highlight-box">
+    <p>👨‍👩‍👧 <strong>We built MonsterForge to be safe, fun, and transparent.</strong> This page answers the most common questions parents have about the app, spending, AI, and data.</p>
+  </div>
+
+  <h2>Is MonsterForge Safe for Kids?</h2>
+  <p>MonsterForge is designed to be kid-friendly and appropriate for all ages. The AI monster creation tool has built-in filters to prevent inappropriate content. However, we always recommend parents play alongside younger children and stay involved in their gaming experience.</p>
+
+  <h2>Does MonsterForge Collect My Child's Data?</h2>
+  <p>No. MonsterForge does <strong>not</strong> require account creation, does not collect a child's name, email, or personal details, and does not track location. The only data sent externally is the monster prompt text (e.g. "a fire-breathing hamster") which is sent to the Anthropic AI to generate the monster. No personal information is attached to this request. See our full <a href="#" onclick="showTab('privacy')">Privacy Policy</a> for details.</p>
+
+  <h2>What Can Kids Spend Real Money On?</h2>
+  <p>MonsterForge offers optional purchases:</p>
+  <ul>
+    <li><strong>Monster Eggs</strong> — $0.99 to $9.99 — hatch random monsters</li>
+    <li><strong>Battle Pass</strong> — $4.99/month — extra features and monsters</li>
+  </ul>
+  <p>All purchases are processed through <strong>Stripe</strong>, a secure payment processor. <strong>We strongly recommend enabling purchase restrictions or parental controls on your child's device</strong> to prevent unintended charges.</p>
+  <p>Virtual coins earned or purchased in-game have <strong>no real-world value</strong> and cannot be converted to money.</p>
+
+  <h2>What Is the AI Monster Creation Feature?</h2>
+  <p>Kids type a description of any creature they can imagine (e.g. "a lava crab with rocket boosters") and our AI — powered by Anthropic's Claude — generates a unique monster with a name, backstory, and battle stats. The system is designed to produce fun, kid-friendly content. Inappropriate prompts are rejected.</p>
+  <p>Each user gets <strong>3 free monster creations per day</strong>. Additional creations cost 100 in-game coins (earned through gameplay or purchased).</p>
+
+  <h2>Is There Chat or Social Interaction?</h2>
+  <p>The current version of MonsterForge does <strong>not</strong> include live chat, messaging, or direct social interaction between players. Battle features are simulated against AI opponents. There is no way for strangers to contact your child through MonsterForge.</p>
+
+  <h2>How Do I Request Data Deletion?</h2>
+  <p>Since we collect minimal data and do not require accounts, most user data is stored locally in the browser. To fully remove any data we may hold, email us at <a href="mailto:havenhelper1@gmail.com">havenhelper1@gmail.com</a> with the subject line "Data Deletion Request" and we will process it within 30 days.</p>
+
+  <h2>COPPA Compliance</h2>
+  <p>MonsterForge complies with the <strong>Children's Online Privacy Protection Act (COPPA)</strong>. We do not knowingly collect personal information from children under 13. If you believe your child's information has been collected without consent, contact us immediately at <a href="mailto:havenhelper1@gmail.com">havenhelper1@gmail.com</a>.</p>
+
+  <h2>Tips for Parents</h2>
+  <ul>
+    <li>✅ Play MonsterForge together — it's a fun creative activity</li>
+    <li>✅ Enable in-app purchase restrictions on your device's parental controls</li>
+    <li>✅ Set a daily coin budget and explain what real money purchases mean</li>
+    <li>✅ Review prompts your child types to ensure they're appropriate</li>
+    <li>✅ Take screenshots of favorite monsters since progress is browser-based</li>
+  </ul>
+
+  <h2>Contact Us</h2>
+  <p>Have a concern or question about your child's use of MonsterForge? We take parent feedback seriously and respond within 2 business days.</p>
+
+  <div class="contact-box">
+    <p>👨‍👩‍👧 <strong>Parent Support</strong></p>
+    <p>Email: <a href="mailto:havenhelper1@gmail.com">havenhelper1@gmail.com</a></p>
+    <p style="font-size:.8rem;color:var(--muted);margin-top:6px;">Subject line: "Parent Question" for fastest response.</p>
+  </div>
+</div>
+
+<script>
+function showTab(name) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('panel-' + name).classList.add('active');
+  const tabs = document.querySelectorAll('.tab');
+  const map = {privacy:0, terms:1, parents:2};
+  tabs[map[name]].classList.add('active');
+  window.scrollTo(0, 0);
+}
+
+// Check URL hash on load
+const hash = window.location.hash.replace('#','');
+if (['privacy','terms','parents'].includes(hash)) showTab(hash);
+</script>
+</body>
+</html>
